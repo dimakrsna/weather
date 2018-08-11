@@ -1,0 +1,197 @@
+{
+  "location": {
+    "name": "Kiev",
+    "region": "Kyyivs'ka Oblast'",
+    "country": "Ukraine",
+    "lat": 50.43,
+    "lon": 30.52,
+    "tz_id": "Europe/Kiev",
+    "localtime_epoch": 1533970543,
+    "localtime": "2018-08-11 9:55"
+  },
+  "current": {
+    "last_updated_epoch": 1533969911,
+    "last_updated": "2018-08-11 09:45",
+    "temp_c": 23.0,
+    "temp_f": 73.4,
+    "is_day": 1,
+    "condition": {
+      "text": "Солнечно",
+      "icon": "//cdn.apixu.com/weather/64x64/day/113.png",
+      "code": 1000
+    },
+    "wind_mph": 4.3,
+    "wind_kph": 6.8,
+    "wind_degree": 130,
+    "wind_dir": "SE",
+    "pressure_mb": 1025.0,
+    "pressure_in": 30.8,
+    "precip_mm": 0.0,
+    "precip_in": 0.0,
+    "humidity": 53,
+    "cloud": 0,
+    "feelslike_c": 24.8,
+    "feelslike_f": 76.6,
+    "vis_km": 10.0,
+    "vis_miles": 6.0
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2018-08-11",
+        "date_epoch": 1533945600,
+        "day": {
+          "maxtemp_c": 28.3,
+          "maxtemp_f": 82.9,
+          "mintemp_c": 17.4,
+          "mintemp_f": 63.3,
+          "avgtemp_c": 23.1,
+          "avgtemp_f": 73.6,
+          "maxwind_mph": 8.3,
+          "maxwind_kph": 13.3,
+          "totalprecip_mm": 0.0,
+          "totalprecip_in": 0.0,
+          "avgvis_km": 20.0,
+          "avgvis_miles": 12.0,
+          "avghumidity": 56.0,
+          "condition": {
+            "text": "Переменная облачность",
+            "icon": "//cdn.apixu.com/weather/64x64/day/116.png",
+            "code": 1003
+          },
+          "uv": 6.2
+        },
+        "astro": {
+          "sunrise": "05:40 AM",
+          "sunset": "08:25 PM",
+          "moonrise": "05:18 AM",
+          "moonset": "08:39 PM"
+        }
+      },
+      {
+        "date": "2018-08-12",
+        "date_epoch": 1534032000,
+        "day": {
+          "maxtemp_c": 28.5,
+          "maxtemp_f": 83.3,
+          "mintemp_c": 16.7,
+          "mintemp_f": 62.1,
+          "avgtemp_c": 23.1,
+          "avgtemp_f": 73.5,
+          "maxwind_mph": 7.8,
+          "maxwind_kph": 12.6,
+          "totalprecip_mm": 3.7,
+          "totalprecip_in": 0.15,
+          "avgvis_km": 19.0,
+          "avgvis_miles": 11.0,
+          "avghumidity": 57.0,
+          "condition": {
+            "text": "Умеренный или сильный ливневый дождь",
+            "icon": "//cdn.apixu.com/weather/64x64/day/356.png",
+            "code": 1243
+          },
+          "uv": 5.9
+        },
+        "astro": {
+          "sunrise": "05:42 AM",
+          "sunset": "08:23 PM",
+          "moonrise": "06:39 AM",
+          "moonset": "09:13 PM"
+        }
+      },
+      {
+        "date": "2018-08-13",
+        "date_epoch": 1534118400,
+        "day": {
+          "maxtemp_c": 26.8,
+          "maxtemp_f": 80.2,
+          "mintemp_c": 18.7,
+          "mintemp_f": 65.7,
+          "avgtemp_c": 22.2,
+          "avgtemp_f": 71.9,
+          "maxwind_mph": 5.4,
+          "maxwind_kph": 8.6,
+          "totalprecip_mm": 0.0,
+          "totalprecip_in": 0.0,
+          "avgvis_km": 19.9,
+          "avgvis_miles": 12.0,
+          "avghumidity": 57.0,
+          "condition": {
+            "text": "Переменная облачность",
+            "icon": "//cdn.apixu.com/weather/64x64/day/116.png",
+            "code": 1003
+          },
+          "uv": 6.0
+        },
+        "astro": {
+          "sunrise": "05:43 AM",
+          "sunset": "08:21 PM",
+          "moonrise": "08:01 AM",
+          "moonset": "09:42 PM"
+        }
+      },
+      {
+        "date": "2018-08-14",
+        "date_epoch": 1534204800,
+        "day": {
+          "maxtemp_c": 28.8,
+          "maxtemp_f": 83.8,
+          "mintemp_c": 19.5,
+          "mintemp_f": 67.1,
+          "avgtemp_c": 24.6,
+          "avgtemp_f": 76.2,
+          "maxwind_mph": 5.6,
+          "maxwind_kph": 9.0,
+          "totalprecip_mm": 0.0,
+          "totalprecip_in": 0.0,
+          "avgvis_km": 20.0,
+          "avgvis_miles": 12.0,
+          "avghumidity": 52.0,
+          "condition": {
+            "text": "Переменная облачность",
+            "icon": "//cdn.apixu.com/weather/64x64/day/116.png",
+            "code": 1003
+          },
+          "uv": 6.0
+        },
+        "astro": {
+          "sunrise": "05:45 AM",
+          "sunset": "08:19 PM",
+          "moonrise": "09:21 AM",
+          "moonset": "10:07 PM"
+        }
+      },
+      {
+        "date": "2018-08-15",
+        "date_epoch": 1534291200,
+        "day": {
+          "maxtemp_c": 31.6,
+          "maxtemp_f": 88.9,
+          "mintemp_c": 19.8,
+          "mintemp_f": 67.6,
+          "avgtemp_c": 25.6,
+          "avgtemp_f": 78.0,
+          "maxwind_mph": 7.8,
+          "maxwind_kph": 12.6,
+          "totalprecip_mm": 1.8,
+          "totalprecip_in": 0.07,
+          "avgvis_km": 18.9,
+          "avgvis_miles": 11.0,
+          "avghumidity": 58.0,
+          "condition": {
+            "text": "Умеренный или сильный ливневый дождь",
+            "icon": "//cdn.apixu.com/weather/64x64/day/356.png",
+            "code": 1243
+          },
+          "uv": 5.8
+        },
+        "astro": {
+          "sunrise": "05:46 AM",
+          "sunset": "08:18 PM",
+          "moonrise": "10:37 AM",
+          "moonset": "10:32 PM"
+        }
+      }
+    ]
+  }
+}

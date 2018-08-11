@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 400 1em/1.5 Arial, sans-serif;
+    background: url('/img/bg.jpg');
+}
+
+article,
+aside,
+main,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+address {
+    display: block;
+}
+
+time {
+    display: inline-block;
+}
+
+address {
+    font-style: normal;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a img {
+    border: none;
+    outline: none;
+}
+
+input,
+textarea,
+button {
+    outline: 0;
+    border: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+figure {
+    position: relative;
+}
+
+figure img,
+figure video,
+figure object,
+figure embed {
+    display: inline-block;
+    max-width: 100%;
+}
+
+/*-----------------
+        MAIN STYLE
+------------------*/
+
+.weather {
+    width: 80%;
+    min-height: 60vh;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 10vh auto;
+    padding: 30px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.weather.error {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header__text {
+    min-height: 20px;
+    font-size: 0.95em;
+    text-align: center;
+}
+
+.header__subtitle {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    line-height: 1;
+    text-align: center;
+}
+
+.header__title {
+    min-height: 40px;
+    margin: 20px 0 5px;
+    font-size: 2.5em;
+    line-height: 1;
+    text-align: center;
+}
+
+.form {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 300px;
+    margin: auto;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.form__input {
+    width: calc(100% - 40px);
+    height: 40px;
+    padding: 0 10px;
+    font-size: 0.9em;
+}
+
+.form__btn {
+    width: 40px;
+}
+
+.form__btn:before {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/img/search.svg');
+}
+
+@keyframes loadingAnimate {
+    from {
+        transform: rotate(90deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.form__btn.loading:before {
+    width: 25px;
+    height: 25px;
+    background: url('/img/load.svg');
+    transform: rotate(0deg);
+    animation: loadingAnimate 1.5s infinite linear;
+}
+
+.result {
+
+}
+
+.result__day {
+    width: 300px;
+    margin: 20px auto 10px;
+}
+
+.result__title {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.result__icon {
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.result__info {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.result__text {
+    font-size: 0.9em;
+}
+
+.result__days-wrap {
+    display: flex;
+    font-size: 0.9em;
+}
+
+.result__week {
+    margin-top: 20px;
+}
+
+.result__days-wrap .result__day {
+    padding: 5px;
+    margin: 10px 0 0;
+    border: 1px solid #000;
+    border-right: none;
+}
+
+.result__days-wrap .result__day:last-child {
+    border-right: 1px solid #000;
+}
+
+.error__message {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1240px) {
+
+    .weather {
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .result__days-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .result__days-wrap .result__day {
+        border: 1px solid #000;
+        width: calc(50% - 40px);
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .weather {
+        width: auto;
+        min-height: 90vh;
+        margin: 10px;
+        padding: 20px 15px;
+    }
+
+    .result__days-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .result__day {
+        width: 100%;
+    }
+
+    .result__days-wrap .result__day {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form__input {
+        font-size: 0.8em;
+        height: 35px;
+    }
+
+    .error {
+        margin-top: 20px;
+    }
+}
