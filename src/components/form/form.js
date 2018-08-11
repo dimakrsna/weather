@@ -17,7 +17,7 @@ export class Form extends React.Component {
            return false;
         }
 
-        fetch(`http://api.apixu.com/v1/forecast.json?key=542523482f444545a5e151807181008&q=${currentCity}&days=5&lang=ru`)
+        fetch(`https://api.apixu.com/v1/forecast.json?key=542523482f444545a5e151807181008&q=${currentCity}&days=5&lang=ru`)
             .then(
                 function(response) {
                     if (response.status !== 200) {
