@@ -3,7 +3,7 @@
 
 Стек технологий: **React, Redux, ES6, Webpack**.
 
-Посмотреть [демо](https://dimakrsna.github.io/weather/dist/index.html)
+Посмотреть [демо](https://dimakrsna.github.io/weather/dist/)
 
 ### Описание директорий:
 [src](https://github.com/dimakrsna/weather/tree/master/src) - рабочая, в которой ведется разработка

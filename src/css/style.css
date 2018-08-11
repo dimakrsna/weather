@@ -193,11 +193,14 @@ figure embed {
 
 .result__text {
     font-size: 0.9em;
+    font-weight: bold;
 }
 
 .result__days-wrap {
     display: flex;
     font-size: 0.9em;
+    margin-top: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 .result__week {
@@ -205,14 +208,18 @@ figure embed {
 }
 
 .result__days-wrap .result__day {
-    padding: 5px;
-    margin: 10px 0 0;
-    border: 1px solid #000;
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px solid #fff;
     border-right: none;
 }
 
+.result__days-wrap .result__text {
+    font-weight: normal;
+}
+
 .result__days-wrap .result__day:last-child {
-    border-right: 1px solid #000;
+    border-right: 1px solid #fff;
 }
 
 .error__message {
@@ -235,12 +242,14 @@ figure embed {
     .result__days-wrap {
         flex-wrap: wrap;
         justify-content: center;
+        box-shadow:  none;
     }
 
     .result__days-wrap .result__day {
-        border: 1px solid #000;
+        border: 1px solid #fff;
         width: calc(50% - 40px);
         margin: 10px;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
     }
 }
 
