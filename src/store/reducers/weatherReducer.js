@@ -4,11 +4,11 @@ function weatherReducer(state = {}, action){
     switch (action.type){
         case 'CITY':
             return {
-                weather: action.payload
+               ...state, weather: action.payload
             };
         case 'ERROR':
             return {
-                isError: action.payload
+               ...state, isError: action.payload
             };
     }
 
